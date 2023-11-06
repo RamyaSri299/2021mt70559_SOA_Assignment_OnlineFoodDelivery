@@ -65,8 +65,7 @@ namespace OnlineFoodDeliverySystem.Controllers
                 {
                     token = new JwtSecurityTokenHandler().WriteToken(token),
                     expiration = token.ValidTo,
-                    //StatusCode(StatusCodes.Status200OK,
-                    //    new Response { Status = "Success", Message = "Login Successfully!" });
+                   
 
             });
                  
@@ -127,8 +126,7 @@ namespace OnlineFoodDeliverySystem.Controllers
                        new Response { Status = "Error", Message = "This Role Doesnot Exist" });
 
             }
-           
-
+          
 
         }
 

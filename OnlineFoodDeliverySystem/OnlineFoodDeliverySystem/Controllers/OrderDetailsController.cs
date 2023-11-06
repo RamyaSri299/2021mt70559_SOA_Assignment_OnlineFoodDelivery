@@ -62,6 +62,7 @@ namespace OnlineFoodDeliverySystem.Controllers
                         order_id = orders.order_id,
                         TotalAmount = orders.TotalAmount,
                         Order_Status = orders.Order_Status,
+                        Delivery_status= orders.Delivery_status,
                         user_id= orders.user_id,
  
                     };
@@ -111,6 +112,7 @@ namespace OnlineFoodDeliverySystem.Controllers
 
                     TotalAmount = orderRequest.TotalAmount,
                     Order_Status = orderRequest.Order_Status,
+                    Delivery_status= orderRequest.Delivery_status,
                     user_id= orderRequest.user_id,
 
                 };
